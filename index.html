@@ -3,104 +3,300 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#0c1b2a">
-  <meta name="description" content="Xihua (Andy) Xiang is a Melbourne-based mechanical engineering student at Swinburne. Explore selected work in product design, prototyping, suspension, structural design and NFC technology.">
+  <meta name="theme-color" content="#102334">
+  <meta name="description" content="Mechanical engineering portfolio of Xihua (Andy) Xiang, a Swinburne University student. Explore DockLoop, FSAE suspension design, a university bridge project and custom NFC networking cards.">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Xihua (Andy) Xiang — Engineering Portfolio">
-  <meta property="og:description" content="Mechanical engineering, product development and practical prototyping. Selected work by Xihua (Andy) Xiang.">
-  <title>Xihua (Andy) Xiang — Engineering Portfolio</title>
+  <meta property="og:title" content="Xihua (Andy) Xiang — Mechanical Engineering Portfolio">
+  <meta property="og:description" content="Selected projects and engineering case studies by Xihua (Andy) Xiang, Mechanical Engineering student at Swinburne University.">
+  <title>Xihua (Andy) Xiang — Mechanical Engineering Portfolio</title>
   <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
-  <link rel="stylesheet" href="assets/styles.css">
+  <link rel="stylesheet" href="assets/styles.css?v=e65a4f7e">
   <script defer src="assets/main.js"></script>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
   <header class="site-header">
     <div class="shell header-inner">
-      <a class="wordmark" href="#top" aria-label="Andy Xiang, back to top"><span class="logo-box">AX<span class="logo-period">.</span></span><span class="wordmark-text">ANDY XIANG <small>ENGINEERING PORTFOLIO</small></span></a>
+      <a class="wordmark" href="#top" aria-label="Andy Xiang, back to top">
+        <span class="logo-box" aria-hidden="true">AX<span>.</span></span>
+        <span class="wordmark-text">ANDY XIANG<small>MECHANICAL ENGINEERING</small></span>
+      </a>
       <nav class="main-nav" aria-label="Main navigation">
         <a href="#projects">Projects</a>
         <a href="#about">About</a>
-        <a href="#contact" class="nav-contact">Get in touch <span aria-hidden="true">↗</span></a>
+        <a href="#contact">Contact <span aria-hidden="true">↗</span></a>
       </nav>
     </div>
   </header>
+
   <main id="main">
     <section class="hero shell" id="top" aria-labelledby="hero-title">
-      <div class="hero-copy">
-        <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> MECHANICAL ENGINEERING STUDENT · MELBOURNE</p>
-        <h1 id="hero-title">From an idea<br>to something <em>real.</em></h1>
-        <p class="hero-intro">I'm Xihua (Andy) Xiang. I enjoy taking ideas beyond the sketchbook — exploring how engineering, physical products and digital systems come together.</p>
-        <div class="hero-actions">
-          <a class="button button-primary" href="#projects">Explore my projects <span aria-hidden="true">↘</span></a>
-          <a class="text-link" href="https://www.linkedin.com/in/xihua-xiang" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
-        </div>
-        <div class="hero-proof" aria-label="Background">
-          <span>Swinburne University</span><span class="proof-divider" aria-hidden="true"></span><span>3DEXPERIENCE hackathon-winning team</span>
-        </div>
+      <div class="hero-drafting" aria-hidden="true">
+        <svg class="hero-mechanism" viewBox="0 0 600 600" fill="none">
+          <circle class="orbit-outer" cx="300" cy="300" r="244" stroke="currentColor" stroke-dasharray="3 12"/>
+          <circle cx="300" cy="300" r="208" stroke="currentColor"/>
+          <circle cx="300" cy="300" r="156" stroke="currentColor"/>
+          <path d="M300 32v92M300 476v92M32 300h92M476 300h92M127 127l52 52M421 421l52 52M127 473l52-52M421 179l52-52" stroke="currentColor"/>
+          <g class="orbit-assembly" stroke="currentColor">
+            <path d="M300 144l135 234H165z" stroke-width="2"/>
+            <path d="M300 144v156l135 78M300 300l-135 78" stroke-dasharray="5 7"/>
+            <circle cx="300" cy="144" r="15" stroke-width="2"/>
+            <circle cx="435" cy="378" r="15" stroke-width="2"/>
+            <circle cx="165" cy="378" r="15" stroke-width="2"/>
+          </g>
+          <circle cx="300" cy="300" r="29" stroke="currentColor"/>
+          <path d="M288 300h24M300 288v24" stroke="currentColor"/>
+        </svg>
       </div>
-      <div class="hero-art" aria-label="Technical illustration of DockLoop-inspired connected components">
-        <div class="hero-art-header"><span><i class="square-dot" aria-hidden="true"></i> DESIGN / DEVELOP / ITERATE</span><span>FIG. 001</span></div>
-        <img src="assets/dockloop.svg" alt="Conceptual illustration of interlocking modules, not a technical drawing" width="720" height="460">
-        <div class="hero-art-footer"><span>PHYSICAL + DIGITAL</span><span>IDEAS IN MOTION <span aria-hidden="true">↗</span></span></div>
+      <div class="hero-copy">
+        <h1 id="hero-title">Xihua (Andy) Xiang</h1>
+        <p class="hero-intro">Mechanical Engineering student</p>
+        <a class="hero-project-link" href="#projects">Explore my projects <span aria-hidden="true">↘</span></a>
       </div>
     </section>
 
-    <div class="rule-section"><div class="shell rule-inner"><span>01 / SELECTED WORK</span><span>FOUR PROJECTS, DIFFERENT ENGINEERING CHALLENGES</span></div></div>
-
     <section class="shell work-section" id="projects" aria-labelledby="projects-title">
-      <div class="section-heading">
-        <div><p class="overline">PORTFOLIO / 2026</p><h2 id="projects-title">Selected projects<span class="blue-period">.</span></h2></div>
-        <p>From team-led product concepts to technical coursework and self-initiated builds. Click a project to learn more about its design process.</p>
-      </div>
-      <div class="project-grid">
-        <a href="#dockloop" class="project-card project-card-featured">
-          <div class="project-card-visual visual-dark"><img src="assets/dockloop.svg" alt="Stylised DockLoop concept illustration" width="720" height="460" loading="lazy"><span class="visual-caption">CONCEPT ILLUSTRATION · REPLACE WITH PROJECT IMAGERY</span></div>
-          <div class="project-card-body"><div class="project-card-meta"><span>01 / PRODUCT DEVELOPMENT</span><span>HACKATHON WINNING TEAM</span></div><h3>DockLoop <span aria-hidden="true">↗</span></h3><p>A universal physical connection concept, paired with a digital system for identifying and organising everyday assets.</p><div class="tags"><span>PROTOTYPING</span><span>PRODUCT SYSTEMS</span><span>SOFTWARE CONCEPT</span></div></div>
+      <div class="section-divider"><h2 id="projects-title">Projects</h2></div>
+      <nav class="project-index" aria-label="Project groups">
+        <a href="#featured-projects">Featured</a>
+        <a href="#active-projects">Active</a>
+        <a href="#past-projects">Past</a>
+      </nav>
+      <section class="project-group" id="featured-projects" aria-labelledby="featured-title">
+        <div class="project-group-heading"><h3 id="featured-title">Featured</h3></div>
+        <div class="project-grid project-grid-featured">
+        <a class="project-card" href="#dockloop" aria-labelledby="card-dockloop-title">
+          <div class="project-card-visual visual-light">
+            <img src="assets/projects/dockloop/physical-prototype.jpg" alt="" width="1206" height="804" loading="lazy">
+          </div>
+          <div class="project-card-body">
+            <h3 id="card-dockloop-title">DockLoop</h3>
+            <div class="card-footer"><span class="case-link">Learn more <span aria-hidden="true">→</span></span></div>
+          </div>
         </a>
-        <a href="#suspension" class="project-card">
-          <div class="project-card-visual visual-ivory"><img src="assets/suspension.svg" alt="Illustrative suspension system schematic" width="720" height="460" loading="lazy"><span class="visual-caption dark-caption">ILLUSTRATIVE GRAPHIC</span></div>
-          <div class="project-card-body"><div class="project-card-meta"><span>02 / MECHANICAL DESIGN</span><span>UNIVERSITY</span></div><h3>Suspension system <span aria-hidden="true">↗</span></h3><p>University suspension design project exploring mechanical design constraints, engineering decisions and system development.</p><div class="tags"><span>AUTOMOTIVE</span><span>MECHANICAL DESIGN</span></div></div>
+        </div>
+      </section>
+      <section class="project-group" id="active-projects" aria-labelledby="active-title">
+        <div class="project-group-heading"><h3 id="active-title">Active</h3></div>
+        <div class="project-grid">
+        <a class="project-card" href="#dockloop" aria-labelledby="card-dockloop-active-title">
+          <div class="project-card-visual visual-light">
+            <img src="assets/projects/dockloop/physical-prototype.jpg" alt="" width="1206" height="804" loading="lazy">
+          </div>
+          <div class="project-card-body">
+            <h3 id="card-dockloop-active-title">DockLoop</h3>
+            <div class="card-footer"><span class="case-link">Learn more <span aria-hidden="true">→</span></span></div>
+          </div>
         </a>
-        <a href="#bridge" class="project-card">
-          <div class="project-card-visual visual-slate"><img src="assets/bridge.svg" alt="Illustrative bridge truss diagram" width="720" height="460" loading="lazy"><span class="visual-caption">ILLUSTRATIVE GRAPHIC</span></div>
-          <div class="project-card-body"><div class="project-card-meta"><span>03 / STRUCTURAL DESIGN</span><span>UNIVERSITY</span></div><h3>Bridge design & build <span aria-hidden="true">↗</span></h3><p>Taking a bridge from a university design challenge through to a physical structure — with an emphasis on engineering choices.</p><div class="tags"><span>STRUCTURES</span><span>FABRICATION</span></div></div>
+        <a class="project-card" href="#nfc" aria-labelledby="card-nfc-title">
+          <div class="project-card-visual visual-light">
+            <img src="assets/projects/nfc/physical-cards.jpg" alt="" width="1601" height="1365" loading="lazy">
+          </div>
+          <div class="project-card-body">
+            <h3 id="card-nfc-title">NFC networking cards</h3>
+            <div class="card-footer"><span class="case-link">Learn more <span aria-hidden="true">→</span></span></div>
+          </div>
         </a>
-        <a href="#nfc" class="project-card">
-          <div class="project-card-visual visual-blue"><img src="assets/nfc.svg" alt="Illustrative NFC business card design" width="720" height="460" loading="lazy"><span class="visual-caption">ILLUSTRATIVE GRAPHIC</span></div>
-          <div class="project-card-body"><div class="project-card-meta"><span>04 / PERSONAL PROJECT</span><span>ONGOING ITERATION</span></div><h3>NFC networking cards <span aria-hidden="true">↗</span></h3><p>Designing, 3D printing and refining physical business cards that connect seamlessly to digital destinations.</p><div class="tags"><span>3D PRINTING</span><span>NFC</span><span>ITERATION</span></div></div>
+        </div>
+      </section>
+      <section class="project-group" id="past-projects" aria-labelledby="past-title">
+        <div class="project-group-heading"><h3 id="past-title">Past</h3></div>
+        <div class="project-grid">
+        <a class="project-card" href="#suspension" aria-labelledby="card-suspension-title">
+          <div class="project-card-visual" style="background: #080806">
+            <img src="assets/projects/fsae/suspension-render.png" alt="" width="316" height="316" loading="lazy">
+          </div>
+          <div class="project-card-body">
+            <h3 id="card-suspension-title">FSAE suspension design</h3>
+            <div class="card-footer"><span class="case-link">Learn more <span aria-hidden="true">→</span></span></div>
+          </div>
         </a>
-      </div>
+        <a class="project-card" href="#bridge" aria-labelledby="card-bridge-title">
+          <div class="project-card-visual visual-light">
+            <img src="assets/projects/bridge/assembled-bridge.png" alt="" width="708" height="322" loading="lazy">
+          </div>
+          <div class="project-card-body">
+            <h3 id="card-bridge-title">University bridge project</h3>
+            <div class="card-footer"><span class="case-link">Learn more <span aria-hidden="true">→</span></span></div>
+          </div>
+        </a>
+        </div>
+      </section>
     </section>
 
     <section class="case-study-section" aria-labelledby="case-title">
-      <div class="shell"><div class="section-heading case-heading"><div><p class="overline">BEHIND THE WORK</p><h2 id="case-title">Project notes<span class="blue-period">.</span></h2></div><p>Short case studies focused on the problem, the process and what I learned. Detailed data and original imagery will be added as each project is documented.</p></div></div>
+      <div class="shell case-heading">
+        <div class="section-divider"><h2 id="case-title">Behind the Designs</h2></div>
+      </div>
 
       <article class="case-study shell" id="dockloop" aria-labelledby="dockloop-title">
-        <div class="case-side"><span class="index-label">PROJECT 01 — PRODUCT SYSTEM</span><h3 id="dockloop-title">DockLoop</h3><p>Exploring how physical objects could connect to a smarter digital ecosystem.</p><div class="case-tags"><span>TEAM PROJECT</span><span>ONGOING</span></div><a href="#projects" class="back-link">↑ Back to projects</a></div>
-        <div class="case-main"><div class="case-figure dark-figure"><img src="assets/dockloop.svg" alt="Placeholder concept artwork for DockLoop" width="720" height="460" loading="lazy"><span>FIG. 01 · CONCEPT ARTWORK / ADD YOUR OWN PROTOTYPE PHOTOS</span></div><div class="case-copy"><h4>Challenge</h4><p>Everyday tools and objects don't naturally carry useful digital context. DockLoop explores a physical connection system with the potential to bridge real-world items and a digital asset experience.</p><h4>Approach</h4><p>Our team developed the concept during a 3DEXPERIENCE student hackathon and has continued exploring early physical prototypes and a software demonstration. The project is still in development.</p><h4>My contribution & evidence</h4><p class="edit-note">To complete: specify exactly what you designed or built, tools you used, key decisions, photos/CAD, and what the prototype currently demonstrates.</p><div class="case-outcome"><span>HIGHLIGHT</span><strong>Hackathon-winning team</strong><span>Student 3DEXPERIENCE hackathon</span></div></div></div>
+        <div class="case-side">
+          <h3 id="dockloop-title">DockLoop</h3>
+          <p>Active project</p>
+          <a class="back-link" href="#projects">↑ Back to projects</a>
+        </div>
+        <div class="case-main">
+          <figure class="case-figure visual-light">
+            <a class="project-image-link" href="assets/projects/dockloop/connection-render.png" target="_blank" rel="noopener noreferrer" aria-label="Open DockLoop 3D render at full size (opens in a new tab)">
+              <img src="assets/projects/dockloop/connection-render.png" alt="Exploded 3D render of DockLoop connection components" width="836" height="540" loading="lazy">
+            </a>
+            <figcaption>3D render · connection components</figcaption>
+          </figure>
+          <div class="case-story">
+            <p class="case-lead"><strong>Connect everything. Keep track of anything.</strong></p>
+            <p>Originally developed for the 2026 Swinburne Student Hackathon, where our team won <strong>1st place overall</strong>, DockLoop is a system designed to connect, organise and track belongings, from everyday essentials to workplace assets. At its core is a universal connection standard we're developing for individuals, families and teams.</p>
+            <p>I played a leading role in the initial ideation and product design, developed the entire interactive app demo, and helped shape the product roadmap. Using simulated data, the demo showcases planned functionality, allowing users to see and interact with changes, such as a key being removed from its home dock.</p>
+            <p>Since the hackathon, we've continued refining the physical connection standard and developing the smart layer to integrate real-world sensors and data.</p>
+          </div>
+          <section class="project-photos" aria-labelledby="dockloop-photos-title">
+            <h4 id="dockloop-photos-title">Photos</h4>
+            <div class="project-gallery">
+              <figure class="case-figure">
+                <a class="project-image-link" href="assets/projects/dockloop/physical-prototype.jpg" target="_blank" rel="noopener noreferrer" aria-label="Open DockLoop prototype photo at full size (opens in a new tab)">
+                  <img src="assets/projects/dockloop/physical-prototype.jpg" alt="Physical DockLoop prototype with keys and an ID holder" width="1206" height="804" loading="lazy">
+                </a>
+                <figcaption>Physical prototype</figcaption>
+              </figure>
+              <figure class="case-figure">
+                <a class="project-image-link" href="assets/projects/dockloop/app-demo.png" target="_blank" rel="noopener noreferrer" aria-label="Open DockLoop app demo screenshot at full size (opens in a new tab)">
+                  <img src="assets/projects/dockloop/app-demo.png" alt="DockLoop app demo showing a key removed from Entry Dock and controls for simulated events" width="2880" height="1800" loading="lazy">
+                </a>
+                <figcaption>App demo · simulated data</figcaption>
+              </figure>
+            </div>
+          </section>
+        </div>
       </article>
 
       <article class="case-study shell" id="suspension" aria-labelledby="suspension-title">
-        <div class="case-side"><span class="index-label">PROJECT 02 — MECHANICAL DESIGN</span><h3 id="suspension-title">Suspension system</h3><p>University design work focused on a fundamental automotive mechanical system.</p><div class="case-tags"><span>UNIVERSITY</span><span>DESIGN</span></div><a href="#projects" class="back-link">↑ Back to projects</a></div>
-        <div class="case-main"><div class="case-figure light-figure"><img src="assets/suspension.svg" alt="Placeholder schematic-style suspension illustration" width="720" height="460" loading="lazy"><span>FIG. 02 · ILLUSTRATION / ADD CAD AND ANALYSIS IMAGES</span></div><div class="case-copy"><h4>Challenge</h4><p>Design a suspension system within the scope and constraints of a university engineering project.</p><h4>Engineering process</h4><p class="edit-note">To complete: identify the suspension configuration, design brief, load assumptions, geometry decisions, CAD software and any calculations or simulations actually performed.</p><h4>Result</h4><p class="edit-note">To complete: add final design, evaluation against requirements, design iterations and what you learned.</p></div></div>
+        <div class="case-side">
+          <h3 id="suspension-title">FSAE suspension design</h3>
+          <p>Past university project</p>
+          <a class="back-link" href="#projects">↑ Back to projects</a>
+        </div>
+        <div class="case-main">
+          <figure class="case-figure">
+            <a class="project-image-link" href="assets/projects/fsae/suspension-detail.png" target="_blank" rel="noopener noreferrer" aria-label="Open detailed FSAE render at full size (opens in a new tab)">
+              <img src="assets/projects/fsae/suspension-detail.png" alt="Detailed 3D render of the wheel assembly and suspension connections" width="900" height="506" loading="lazy">
+            </a>
+            <figcaption>Detailed 3D render</figcaption>
+          </figure>
+          <div class="case-story">
+            <p class="case-lead">As part of a university Formula SAE project, our team was tasked with designing a suspension system capable of withstanding the demanding loads of competitive racing while maintaining on-track performance.</p>
+            <p>I took responsibility for the wheel hubs and rims, designing the components in SolidWorks and evaluating their structural performance through simulation and physical load testing. This involved assessing how the designs responded to expected loads and identifying potential weaknesses.</p>
+            <p>The project gave me practical experience in taking mechanical components from initial design through to validation, while contributing to a larger, interconnected engineering system.</p>
+          </div>
+          <section class="project-photos" aria-labelledby="suspension-photos-title">
+            <h4 id="suspension-photos-title">Photos</h4>
+            <div class="project-gallery">
+              <figure class="case-figure" style="background: #080806">
+                <a class="project-image-link" href="assets/projects/fsae/suspension-render.png" target="_blank" rel="noopener noreferrer" aria-label="Open overall FSAE render at full size (opens in a new tab)">
+                  <img src="assets/projects/fsae/suspension-render.png" alt="3D render of the suspension assembly with wheel, control arms and spring-damper" width="316" height="316" loading="lazy" style="max-width: 316px; margin-inline: auto">
+                </a>
+                <figcaption>3D render · suspension assembly</figcaption>
+              </figure>
+              <figure class="case-figure">
+                <a class="project-image-link" href="assets/projects/fsae/front-view.png" target="_blank" rel="noopener noreferrer" aria-label="Open FSAE front view at full size (opens in a new tab)">
+                  <img src="assets/projects/fsae/front-view.png" alt="Front view render showing the wheel, rim and spring-damper assembly" width="904" height="508" loading="lazy">
+                </a>
+                <figcaption>Front view · 3D render</figcaption>
+              </figure>
+            </div>
+          </section>
+        </div>
       </article>
 
       <article class="case-study shell" id="bridge" aria-labelledby="bridge-title">
-        <div class="case-side"><span class="index-label">PROJECT 03 — STRUCTURAL DESIGN</span><h3 id="bridge-title">Bridge design & build</h3><p>A university build that translates structural ideas into a physical outcome.</p><div class="case-tags"><span>UNIVERSITY</span><span>FABRICATION</span></div><a href="#projects" class="back-link">↑ Back to projects</a></div>
-        <div class="case-main"><div class="case-figure dark-figure"><img src="assets/bridge.svg" alt="Placeholder schematic-style bridge illustration" width="720" height="460" loading="lazy"><span>FIG. 03 · ILLUSTRATION / ADD DESIGN AND BUILD PHOTOS</span></div><div class="case-copy"><h4>Challenge</h4><p>Design and construct a bridge for a university engineering project, taking design considerations into the real world.</p><h4>Engineering process</h4><p class="edit-note">To complete: include span, permitted materials, load target, structural layout, key tradeoffs and the steps used to fabricate the bridge.</p><h4>Result</h4><p class="edit-note">To complete: insert photos of the completed structure and any recorded test loads or failure observations. Only claim measured values you can verify.</p></div></div>
+        <div class="case-side">
+          <h3 id="bridge-title">University bridge project</h3>
+          <p>Past university project</p>
+          <a class="back-link" href="#projects">↑ Back to projects</a>
+        </div>
+        <div class="case-main">
+          <figure class="case-figure">
+            <a class="project-image-link" href="assets/projects/bridge/assembled-bridge.png" target="_blank" rel="noopener noreferrer" aria-label="Open assembled bridge photo at full size (opens in a new tab)">
+              <img src="assets/projects/bridge/assembled-bridge.png" alt="Assembled steel arch bridge beside the initial small-scale model" width="708" height="322" loading="lazy">
+            </a>
+            <figcaption>Assembled bridge with the initial small-scale model</figcaption>
+          </figure>
+          <div class="case-story">
+            <p class="case-lead">Our team was challenged to design and construct a lightweight bridge capable of supporting the greatest possible load while minimising material use.</p>
+            <p>We developed a hybrid structure combining 3D-printed abutments, steel arches, tension cables and a wooden deck. I contributed to the initial research, physical assembly and load testing, gaining practical experience in how material selection and structural design influence performance.</p>
+            <p>The finished bridge weighed just <strong>372 g</strong> yet supported a tested load of <strong>3,100 N</strong>, achieving the highest strength-to-weight ratio in the project. Testing also revealed significant deflection under peak loading, highlighting the importance of balancing structural strength with stiffness.</p>
+          </div>
+          <section class="project-photos" aria-labelledby="bridge-photos-title">
+            <h4 id="bridge-photos-title">Photos</h4>
+            <div class="project-gallery">
+              <figure class="case-figure">
+                <a class="project-image-link" href="assets/projects/bridge/after-3100n-test.png" target="_blank" rel="noopener noreferrer" aria-label="Open bridge load-test photo at full size (opens in a new tab)">
+                  <img src="assets/projects/bridge/after-3100n-test.png" alt="Bridge in the test rig showing severe deck deflection after the 3,100 N load test" width="738" height="450" loading="lazy">
+                </a>
+                <figcaption>After 3,100 N · severe deflection at the highest load tested</figcaption>
+              </figure>
+              <figure class="case-figure">
+                <a class="project-image-link" href="assets/projects/bridge/annotated-render.png" target="_blank" rel="noopener noreferrer" aria-label="Open annotated bridge render at full size (opens in a new tab)">
+                  <img src="assets/projects/bridge/annotated-render.png" alt="Annotated 3D bridge render identifying steel arches, galvanised steel wire, formply deck, M6 steel alignment pins and fasteners, and 3D-printed PETG abutments" width="804" height="500" loading="lazy">
+                </a>
+                <figcaption>3D render · components and materials</figcaption>
+              </figure>
+            </div>
+          </section>
+        </div>
       </article>
 
-      <article class="case-study shell last-case" id="nfc" aria-labelledby="nfc-title">
-        <div class="case-side"><span class="index-label">PROJECT 04 — PERSONAL BUILD</span><h3 id="nfc-title">NFC networking cards</h3><p>A personal experiment in making networking more tangible.</p><div class="case-tags"><span>PERSONAL PROJECT</span><span>PROTOTYPING</span></div><a href="#projects" class="back-link">↑ Back to projects</a></div>
-        <div class="case-main"><div class="case-figure blue-figure"><img src="assets/nfc.svg" alt="Placeholder NFC card illustration" width="720" height="460" loading="lazy"><span>FIG. 04 · ILLUSTRATION / ADD CARD ITERATION PHOTOS</span></div><div class="case-copy"><h4>Challenge</h4><p>Make a functional networking card that feels more personal and useful than a conventional paper business card.</p><h4>Approach</h4><p>Exploring a 3D-printed card with embedded NFC tags, linked to custom digital landing pages. The design considers printing constraints, readability, card thickness and how people interact with the finished product.</p><h4>Iterations & result</h4><p class="edit-note">To complete: add photos of versions 1, 2 and later; detail which NFC functions work, what was improved and what you'd change next.</p></div></div>
+      <article class="case-study shell" id="nfc" aria-labelledby="nfc-title">
+        <div class="case-side">
+          <h3 id="nfc-title">NFC networking cards</h3>
+          <p>Active personal project</p>
+          <a class="back-link" href="#projects">↑ Back to projects</a>
+        </div>
+        <div class="case-main">
+          <figure class="case-figure">
+            <a class="project-image-link" href="assets/projects/nfc/physical-cards.jpg" target="_blank" rel="noopener noreferrer" aria-label="Open physical NFC card photo at full size (opens in a new tab)">
+              <img src="assets/projects/nfc/physical-cards.jpg" alt="Front and back of the physical 3D-printed NFC cards, showing contrasting lettering and a QR code" width="1601" height="1365" loading="lazy">
+            </a>
+            <figcaption>Physical cards · front and back</figcaption>
+          </figure>
+          <div class="case-story">
+            <p class="case-lead">I started this project to make connecting with people at large events easier. Each networking card contains two independently programmable NFC chips, so users can choose what each chip links to.</p>
+            <p>The cards are 3D-printed in PLA, with the lettering produced using dual-nozzle 3D printing.</p>
+            <p>We are refining the appearance of the cards and the readability of the printed lettering.</p>
+          </div>
+          <section class="project-photos" aria-labelledby="nfc-photos-title">
+            <h4 id="nfc-photos-title">Photos</h4>
+            <div class="project-gallery">
+              <figure class="case-figure">
+                <a class="project-image-link" href="assets/projects/nfc/card-cad.png" target="_blank" rel="noopener noreferrer" aria-label="Open NFC card CAD screenshot at full size (opens in a new tab)">
+                  <img src="assets/projects/nfc/card-cad.png" alt="CAD screenshot of the card face with name, mechanical engineering and university lettering, and an NFC symbol" width="1318" height="1074" loading="lazy">
+                </a>
+                <figcaption>CAD · card face and lettering</figcaption>
+              </figure>
+            </div>
+          </section>
+        </div>
       </article>
     </section>
 
-    <section id="about" class="about-section"><div class="shell about-grid"><div><p class="overline">A LITTLE ABOUT ME</p><h2>Engineer in training.<br><em>Builder by habit.</em></h2></div><div class="about-copy"><p>I'm a mechanical engineering student at Swinburne University of Technology in Melbourne. My interests span hands-on mechanical design, product development and the way physical systems interact with technology.</p><p>Alongside university work, I enjoy exploring projects outside the classroom — especially ideas that move from rough prototypes towards things people can actually use.</p><div class="about-meta"><div><span>BASED IN</span><strong>Melbourne, Australia</strong></div><div><span>STUDYING</span><strong>Mechanical Engineering · Swinburne</strong></div></div></div></div></section>
+    <section class="about-section" id="about" aria-labelledby="about-title">
+      <div class="shell section-divider"><h2 id="about-title">About</h2></div>
+      <div class="shell about-grid">
+        <div><h3>Xihua (Andy) Xiang.<br><em>Mechanical Engineering student.</em></h3></div>
+        <div class="about-copy">
+          <dl class="about-meta"><div><dt>STUDY</dt><dd>Mechanical Engineering</dd></div><div><dt>UNIVERSITY</dt><dd>Swinburne University of Technology</dd></div></dl>
+        </div>
+      </div>
+    </section>
 
-    <section class="contact-section" id="contact"><div class="shell contact-inner"><div><p class="overline">LET'S CONNECT</p><h2>Have an idea worth<br><em>building?</em></h2><p>I'm always interested in meeting people working on engineering, design and product development.</p></div><div class="contact-actions"><a class="button button-light" href="https://www.linkedin.com/in/xihua-xiang" target="_blank" rel="noopener noreferrer">Connect on LinkedIn <span aria-hidden="true">↗</span></a><span>Melbourne, Australia</span></div></div></section>
+    <section class="contact-section" id="contact" aria-labelledby="contact-title">
+      <div class="shell contact-inner">
+        <div><p class="eyebrow">04 / CONTACT</p><h2 id="contact-title">Let's talk<br><em>engineering.</em></h2><p>Connect with me to discuss my projects, engineering ideas and opportunities.</p></div>
+        <a class="button button-light" href="https://www.linkedin.com/in/xihua-xiang" target="_blank" rel="noopener noreferrer">Connect on LinkedIn <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a>
+      </div>
+    </section>
   </main>
-  <footer class="site-footer"><div class="shell footer-inner"><span>© <span id="year">2026</span> Xihua (Andy) Xiang</span><span>DESIGNED TO BE BUILT ON · HOSTED WITH GITHUB PAGES</span><a href="#top">Back to top ↑</a></div></footer>
+
+  <footer class="site-footer">
+    <div class="shell footer-inner"><span>© <span id="year">2026</span> Xihua (Andy) Xiang</span><span>MECHANICAL ENGINEERING PORTFOLIO</span><a href="#top">Back to top ↑</a></div>
+  </footer>
 </body>
 </html>
